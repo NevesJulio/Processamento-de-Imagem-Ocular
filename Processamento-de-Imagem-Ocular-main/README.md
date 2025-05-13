@@ -15,31 +15,31 @@ diabéticos.
 
 ## Estrutura dos arquivos
 
-DataSet/
+DataSet/  
 └── [imagens originais]
 
-dataset_selecionado/
-├── with_DR/ # 400 imagens com retinopatia diabética
-└── no_DR/ # 400 imagens sem retinopatia diabética
+dataset_selecionado/  
+├── with_DR/ # 400 imagens com retinopatia diabética  
+└── no_DR/ # 400 imagens sem retinopatia diabética  
 
-resized_128/
-├── with_DR/ # Imagens com RD redimensionadas para 128x128
-└── no_DR/ # Imagens sem RD redimensionadas para 128x128
+resized_128/  
+├── with_DR/ # Imagens com RD redimensionadas para 128x128  
+└── no_DR/ # Imagens sem RD redimensionadas para 128x128  
 
-resized_256/
-├── with_DR/ # Imagens com RD redimensionadas para 256x256
-└── no_DR/ # Imagens sem RD redimensionadas para 256x256
+resized_256/  
+├── with_DR/ # Imagens com RD redimensionadas para 256x256  
+└── no_DR/ # Imagens sem RD redimensionadas para 256x256  
     
-clahe_128/
-├── with_DR/ # Imagens 128x128 com RD após CLAHE
-    └── Sobel_128/ # Imagens 128x128 com RD após CLAHE + filtro Sobel
-└── no_DR/ # Imagens 128x128 sem RD após CLAHE
-    └── Sobel_128/ # Imagens 128x128 sem RD após CLAHE + filtro Sobel
+clahe_128/  
+├── with_DR/ # Imagens 128x128 com RD após CLAHE  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sobel_128/ # Imagens 128x128 com RD após CLAHE + filtro Sobel  
+└── no_DR/ # Imagens 128x128 sem RD após CLAHE  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sobel_128/ # Imagens 128x128 sem RD após CLAHE + filtro Sobel  
 
-clahe_256/
-├── with_DR/ # Imagens 256x256 com RD após CLAHE
-    └── Sobel_256/ # Imagens 256x256 com RD após CLAHE + filtro Sobel
-└── no_DR/ # Imagens 256x256 sem RD após CLAHE
-    └── Sobel_256/ # Imagens 256x256 sem RD após CLAHE + filtro Sobel
+clahe_256/  
+├── with_DR/ # Imagens 256x256 com RD após CLAHE  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sobel_256/ # Imagens 256x256 com RD após CLAHE + filtro Sobel  
+└── no_DR/ # Imagens 256x256 sem RD após CLAHE  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sobel_256/ # Imagens 256x256 sem RD após CLAHE + filtro Sobel  
 
 
