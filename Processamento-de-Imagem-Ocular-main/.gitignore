@@ -1,0 +1,5 @@
+# Ignorar todos os arquivos na pasta data
+data/*
+
+# Mas não ignorar o arquivo .gitkeep (para manter a pasta no repositório)
+!data/.gitkeep
