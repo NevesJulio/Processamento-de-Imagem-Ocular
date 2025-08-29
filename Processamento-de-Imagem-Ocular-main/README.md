@@ -45,7 +45,7 @@ clahe_256/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sobel_256/ # Imagens 256x256 sem RD após CLAHE + filtro Sobel  
 
 Training/  
-├── MLP/ #Notebooks e outputs referêntes ao treinamento usando Multilayer Layer perceptron e os testes com as alterações de seus parâmetros
-└── knn/ #Notebooks e outputs referêntes ao treinamento usando k nearest neighbor e os testes com as alterações de seus parâmetros
-└── arvore_decisao/ #Notebooks e outputs referêntes ao treinamento usando arvore de decisão e os testes com as alterações de seus parâmetros
-└── naive_bayes/ #Notebooks e outputs referêntes ao treinamento usando Naive Bayes e os testes com as alterações de seus parâmetros
+├── MLP/ #Notebooks e outputs referêntes ao Multilayer Layer perceptron
+└── knn/ #Notebooks e outputs referêntes ao k nearest neighbors
+└── arvore_decisao/ #Notebooks e outputs referêntes a arvore de decisão e
+└── naive_bayes/ #Notebooks e outputs referêntes ao Naive Bayes 
