@@ -46,6 +46,6 @@ clahe_256/
 
 Training/  
 ├── MLP/ #Notebooks e outputs referêntes ao Multilayer Layer perceptron
-└── knn/ #Notebooks e outputs referêntes ao k nearest neighbors
-└── arvore_decisao/ #Notebooks e outputs referêntes a arvore de decisão e
+├──  knn/ #Notebooks e outputs referêntes ao k nearest neighbors
+├── arvore_decisao/ #Notebooks e outputs referêntes a arvore de decisão e
 └── naive_bayes/ #Notebooks e outputs referêntes ao Naive Bayes 
