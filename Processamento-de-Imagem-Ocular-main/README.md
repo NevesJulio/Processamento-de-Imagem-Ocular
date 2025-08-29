@@ -39,7 +39,13 @@ clahe_128/
 clahe_256/  
 ├── with_DR/ # Imagens 256x256 com RD após CLAHE  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sobel_256/ # Imagens 256x256 com RD após CLAHE + filtro Sobel  
+
+
 └── no_DR/ # Imagens 256x256 sem RD após CLAHE  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sobel_256/ # Imagens 256x256 sem RD após CLAHE + filtro Sobel  
 
-
+Training/  
+├── MLP/ #Notebooks e outputs referêntes ao treinamento usando Multilayer Layer perceptron e os testes com as alterações de seus parâmetros
+└── knn/ #Notebooks e outputs referêntes ao treinamento usando k nearest neighbor e os testes com as alterações de seus parâmetros
+└── arvore_decisao/ #Notebooks e outputs referêntes ao treinamento usando arvore de decisão e os testes com as alterações de seus parâmetros
+└── naive_bayes/ #Notebooks e outputs referêntes ao treinamento usando Naive Bayes e os testes com as alterações de seus parâmetros
